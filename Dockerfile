@@ -4,10 +4,10 @@ FROM node:latest
 WORKDIR /zadanie1
 COPY . .
 
-#instalujemy node_modules do poprawnego działania projektu
+#instalacja node_modules do poprawnego działania projektu
 RUN npm install
 
-#
+#ustawienie autora
 ENV AUTOR 'Jakub Kozłowski'
 
 #Uruchomienie kontenera na porcie 80
