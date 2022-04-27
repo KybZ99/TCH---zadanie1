@@ -14,6 +14,7 @@
 - b) docker run -d -p 8080:3000 --rm --name docker_zadanie1 tc
 - c) docker logs zad1-kontener
 - d) docker history tc
+- Zrzut ekranu znajduje się w folderze screenshots
 
 ## 4.Budowa kontenera zbudowanego dla różne architektury z wykorzystaniem GitHubActions
 
